@@ -1,5 +1,5 @@
 {% set name = "mp_pytorch" %}
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mp_pytorch-{{ version }}.tar.gz
-  sha256: d20aba17454016f9b5548c90356bb56a1f05a5a2ac0944d08c3da0ed707e6dbe
+  sha256: e276623453b0267ecf687d190c465d2200b08e99e632126b923834aed472e366
 
 build:
   noarch: python
